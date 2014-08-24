@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()){
 cacheSolve <- function(x,...){
 	m <- x§getmatrix()
 	if(!is.null(m)){
-		message("getting cached data")
+		message("Master, I have that written in a paper somewhere")
 		return (m)
 	}
 	data <- x$get()
